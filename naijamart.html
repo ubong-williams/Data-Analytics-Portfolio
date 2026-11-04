@@ -2,133 +2,586 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>NaijaMart Sales Intelligence | Ubong John Williams</title>
+<title>NaijaMart | Sales Intelligence</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
+<style>
+.analysis-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background: #141414;
+    font-size: 14px;
+}
+
+.analysis-table th,
+.analysis-table td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.analysis-table th {
+    color: #d4af62;
+    background: #1c1c1c;
+}
+
+.analysis-table tr:hover {
+    background: #222;
+}
+
+.insight-card {
+    background: #141414;
+    border-left: 3px solid #d4af62;
+    padding: 20px;
+    margin: 18px 0;
+    border-radius: 4px;
+}
+
+.metric {
+    font-size: 27px;
+    color: #d4af62;
+    font-weight: bold;
+}
+
+.subheading {
+    color: #d4af62;
+    margin: 30px 0 12px;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid #d4af62;
+    border-radius: 8px;
+    margin: 25px 0;
+}
+
+section p, section li {
+    color: #bdbdbd;
+}
+
+section li {
+    margin-bottom: 12px;
+}
+
+</style>
 </head>
 
 <body>
 
 <header>
-    <a href="index.html" class="logo">UJW<span>.</span></a>
+<a href="index.html" class="logo">UJW<span>.</span></a>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="index.html#skills">Skills</a>
-        <a href="index.html#projects">Projects</a>
-        <a href="index.html#contact">Contact</a>
-    </nav>
+<nav>
+<a href="index.html">Home</a>
+<a href="index.html#skills">Skills</a>
+<a href="index.html#projects">Projects</a>
+<a href="index.html#contact">Contact</a>
+</nav>
 </header>
 
 <section class="hero">
-    <p class="eyebrow">FEATURED DATA ANALYTICS PROJECT</p>
 
-    <h1>NaijaMart <span>Sales Intelligence.</span></h1>
+<p class="eyebrow">FEATURED DATA ANALYTICS PROJECT</p>
 
-    <p class="intro">
-        Turning retail sales data into actionable business insights.
-    </p>
+<h1>NaijaMart <span>Sales Intelligence</span></h1>
 
-    <p class="description">
-        A sales analytics project focused on understanding
-        business performance, identifying sales trends,
-        evaluating product performance and developing
-        data-driven business recommendations.
-    </p>
+<p class="intro">
+2024 Sales Performance & Business Intelligence Analysis
+</p>
+
+<p class="description">
+Transforming retail sales data into meaningful
+business insights through data analysis,
+visualization and evidence-based recommendations.
+</p>
+
+<a href="#dashboard" class="btn">Explore Project</a>
+
 </section>
 
 <section>
-    <p class="eyebrow">01 / PROJECT OVERVIEW</p>
-    <h2>About the Project</h2>
+<p class="eyebrow">01 / PROJECT OVERVIEW</p>
 
-    <p>
-        NaijaMart Sales Intelligence is a retail sales
-        analysis project designed to explore sales data
-        and understand the factors influencing business
-        performance.
+<h2>About the Project</h2>
 
-        The analysis focuses on transforming raw sales
-        records into meaningful insights that can support
-        better business decisions.
-    </p>
+<p>
+NaijaMart Sales Intelligence is a retail sales
+analytics project focused on evaluating business
+performance using historical sales data from
+January to November 2024.
+
+The project explores revenue performance,
+product contribution, category performance,
+monthly sales trends, geographical distribution
+and customer purchasing behaviour.
+
+The objective is to transform raw transactional
+data into actionable insights that can support
+business planning, performance monitoring and
+better decision-making.
+</p>
+
+<h3 class="subheading">Business Objectives</h3>
+
+<ul>
+<li>Evaluate overall sales and revenue performance.</li>
+<li>Identify the highest and lowest-performing product categories.</li>
+<li>Determine the top five products by revenue.</li>
+<li>Analyse monthly revenue trends and fluctuations.</li>
+<li>Compare sales performance across geographical locations.</li>
+<li>Examine customer contribution and order performance.</li>
+<li>Develop recommendations for business improvement.</li>
+</ul>
 </section>
 
 <section>
-    <p class="eyebrow">02 / BUSINESS OBJECTIVES</p>
-    <h2>What I Set Out to Analyse</h2>
+<p class="eyebrow">02 / DATASET & METHODOLOGY</p>
 
-    <div class="skills-grid">
-        <div class="skill">Sales Performance</div>
-        <div class="skill">Revenue Trends</div>
-        <div class="skill">Product Performance</div>
-        <div class="skill">Top 5 Products by Revenue</div>
-        <div class="skill">Business Opportunities</div>
-        <div class="skill">Sales Recommendations</div>
-    </div>
+<h2>Dataset Overview</h2>
+
+<p>
+The analysis was conducted using a retail sales
+dataset containing transactional, customer,
+product, pricing and geographical information.
+</p>
+
+<table class="analysis-table">
+<tr><th>Dataset Indicator</th><th>Value</th></tr>
+<tr><td>Analysis period</td><td>January – November 2024</td></tr>
+<tr><td>Transaction records</td><td>60</td></tr>
+<tr><td>Unique orders</td><td>27</td></tr>
+<tr><td>Customers</td><td>17</td></tr>
+<tr><td>Products</td><td>16</td></tr>
+<tr><td>Product categories</td><td>5</td></tr>
+<tr><td>Geographical locations</td><td>7</td></tr>
+<tr><td>Total quantity sold</td><td>197 units</td></tr>
+</table>
+
+<h3 class="subheading">Tools & Technologies</h3>
+
+<div class="skills-grid">
+<div class="skill">Microsoft Excel</div>
+<div class="skill">MySQL</div>
+<div class="skill">Power BI</div>
+<div class="skill">Data Visualization</div>
+</div>
+
+<h3 class="subheading">Analytical Approach</h3>
+
+<ul>
+<li>Data preparation and quality checks.</li>
+<li>Exploratory data analysis.</li>
+<li>SQL-based data querying and aggregation.</li>
+<li>Revenue and product performance analysis.</li>
+<li>Power BI dashboard development.</li>
+<li>Business insight generation and reporting.</li>
+</ul>
+</section>
+
+<section id="dashboard">
+<p class="eyebrow">03 / DASHBOARD PRESENTATION</p>
+
+<h2>Sales Performance Dashboard</h2>
+
+<p>
+The Power BI dashboard provides a visual overview
+of NaijaMart's sales performance, highlighting
+key performance indicators, geographical revenue,
+top products, monthly trends and category contribution.
+</p>
+
+<img
+src="naijamart-dashboard.png"
+alt="NaijaMart 2024 Power BI Sales Intelligence Dashboard"
+class="project-image"
+>
+
 </section>
 
 <section>
-    <p class="eyebrow">03 / TOOLS & TECHNOLOGY</p>
-    <h2>Tools Used</h2>
+<p class="eyebrow">04 / OVERALL BUSINESS PERFORMANCE</p>
 
-    <div class="skills-grid">
-        <div class="skill">Power BI</div>
-        <div class="skill">Microsoft Excel</div>
-        <div class="skill">MySQL</div>
-    </div>
+<h2>Key Performance Indicators</h2>
+
+<div class="skills-grid">
+
+<div class="skill">
+<div class="metric">₦4.77M</div>
+<p>Total Revenue</p>
+</div>
+
+<div class="skill">
+<div class="metric">197</div>
+<p>Total Quantity Sold</p>
+</div>
+
+<div class="skill">
+<div class="metric">27</div>
+<p>Unique Orders</p>
+</div>
+
+<div class="skill">
+<div class="metric">17</div>
+<p>Customers</p>
+</div>
+
+</div>
+
+<div class="insight-card">
+<strong>Business Insight</strong>
+<p>
+NaijaMart generated total revenue of ₦4,770,700
+from 197 units sold across 27 unique orders
+during the analysed period.
+</p>
+</div>
+
 </section>
 
 <section>
-    <p class="eyebrow">04 / KEY FINDINGS</p>
-    <h2>Business Insights</h2>
+<p class="eyebrow">05 / CATEGORY PERFORMANCE</p>
 
-    <p>
-        The analysis examined revenue performance,
-        product contribution, sales patterns and
-        opportunities for business improvement.
-    </p>
+<h2>Revenue by Product Category</h2>
 
-    <p>
-        Detailed findings and supporting figures
-        will be added alongside the completed
-        dashboard and analysis.
-    </p>
+<table class="analysis-table">
+<tr>
+<th>Category</th>
+<th>Revenue</th>
+<th>Contribution</th>
+</tr>
+<tr><td>Groceries</td><td>₦1,660,200</td><td>34.8%</td></tr>
+<tr><td>Electronics</td><td>₦1,243,000</td><td>26.1%</td></tr>
+<tr><td>Home & Kitchen</td><td>₦954,000</td><td>20.0%</td></tr>
+<tr><td>Fashion</td><td>₦760,000</td><td>15.9%</td></tr>
+<tr><td>Beauty</td><td>₦153,500</td><td>3.2%</td></tr>
+</table>
+
+<div class="insight-card">
+<strong>Key Finding</strong>
+<p>
+Groceries was the leading revenue-generating
+category, contributing approximately 34.8%
+of total revenue. Electronics followed with
+26.1%. Together, these two categories accounted
+for approximately 60.9% of total revenue.
+</p>
+</div>
+
+<div class="insight-card">
+<strong>Opportunity Identified</strong>
+<p>
+Beauty recorded the lowest category revenue
+at ₦153,500, representing approximately 3.2%
+of total revenue. Its performance presents
+an opportunity for further investigation.
+</p>
+</div>
 </section>
 
 <section>
-    <p class="eyebrow">05 / RECOMMENDATIONS</p>
-    <h2>Business Recommendations</h2>
+<p class="eyebrow">06 / PRODUCT PERFORMANCE</p>
 
-    <p>
-        The project translates analytical observations
-        into practical recommendations to support
-        product decisions, sales performance monitoring
-        and business growth.
-    </p>
+<h2>Top Five Products by Revenue</h2>
+
+<table class="analysis-table">
+<tr><th>Product</th><th>Revenue</th></tr>
+<tr><td>Rice (50kg)</td><td>₦1,488,000</td></tr>
+<tr><td>Smart Watch</td><td>₦665,000</td></tr>
+<tr><td>Blender</td><td>₦392,000</td></tr>
+<tr><td>Non-stick Pot Set</td><td>₦352,000</td></tr>
+<tr><td>Bluetooth Speaker</td><td>₦300,000</td></tr>
+</table>
+
+<div class="insight-card">
+<strong>Key Finding</strong>
+<p>
+Rice (50kg) was the highest revenue-generating
+product, contributing approximately 31.2%
+of total revenue. The five leading products
+collectively generated approximately 67%
+of total revenue.
+</p>
+</div>
+
 </section>
 
 <section>
-    <p class="eyebrow">06 / PROJECT OUTCOME</p>
-    <h2>From Data to Decisions</h2>
+<p class="eyebrow">07 / MONTHLY PERFORMANCE</p>
 
-    <p>
-        This project demonstrates my ability to work
-        with sales datasets, analyse business performance,
-        build visual reports and communicate insights
-        through data storytelling.
-    </p>
+<h2>Revenue by Month</h2>
 
-    <a href="index.html#projects" class="btn">
-        Back to Portfolio
-    </a>
+<table class="analysis-table">
+<tr><th>Month</th><th>Revenue</th></tr>
+<tr><td>January</td><td>₦524,800</td></tr>
+<tr><td>February</td><td>₦140,000</td></tr>
+<tr><td>March</td><td>₦1,021,500</td></tr>
+<tr><td>April</td><td>₦255,900</td></tr>
+<tr><td>May</td><td>₦662,600</td></tr>
+<tr><td>June</td><td>₦336,000</td></tr>
+<tr><td>July</td><td>₦688,800</td></tr>
+<tr><td>August</td><td>₦0</td></tr>
+<tr><td>September</td><td>₦552,000</td></tr>
+<tr><td>October</td><td>₦185,600</td></tr>
+<tr><td>November</td><td>₦403,500</td></tr>
+</table>
+
+<div class="insight-card">
+<strong>Key Findings</strong>
+<ul>
+<li>March recorded the highest monthly revenue at ₦1,021,500.</li>
+<li>February recorded the lowest revenue at ₦140,000.</li>
+<li>May and July also recorded relatively strong revenue performance.</li>
+<li>August had no recorded transactions and requires verification.</li>
+<li>Revenue fluctuated throughout the analysed period.</li>
+</ul>
+</div>
+
+</section>
+
+<section>
+<p class="eyebrow">08 / GEOGRAPHICAL PERFORMANCE</p>
+
+<h2>Revenue by State</h2>
+
+<table class="analysis-table">
+<tr><th>State</th><th>Revenue</th><th>Contribution</th></tr>
+<tr><td>Lagos</td><td>₦1,295,700</td><td>27.2%</td></tr>
+<tr><td>Ogun</td><td>₦837,800</td><td>17.6%</td></tr>
+<tr><td>FCT</td><td>₦828,900</td><td>17.4%</td></tr>
+<tr><td>Enugu</td><td>₦795,500</td><td>16.7%</td></tr>
+<tr><td>Rivers</td><td>₦529,000</td><td>11.1%</td></tr>
+<tr><td>Kano</td><td>₦287,800</td><td>6.0%</td></tr>
+<tr><td>Oyo</td><td>₦196,000</td><td>4.1%</td></tr>
+</table>
+
+<div class="insight-card">
+<strong>Key Finding</strong>
+<p>
+Lagos generated the highest revenue,
+contributing approximately 27.2% of total
+sales. Oyo recorded the lowest geographical
+revenue contribution at approximately 4.1%.
+</p>
+</div>
+
+</section>
+
+<section>
+<p class="eyebrow">09 / CUSTOMER & ORDER ANALYSIS</p>
+
+<h2>Customer Performance</h2>
+
+<p>
+The dataset contained 17 customers and
+27 unique orders. Customer-level analysis
+identified differences in revenue contribution
+and purchasing activity.
+</p>
+
+<h3 class="subheading">Leading Customer Contributions</h3>
+
+<table class="analysis-table">
+<tr><th>Customer</th><th>Revenue</th></tr>
+<tr><td>Customer A</td><td>₦804,900</td></tr>
+<tr><td>Customer B</td><td>₦771,300</td></tr>
+<tr><td>Customer C</td><td>₦482,000</td></tr>
+<tr><td>Customer D</td><td>₦476,000</td></tr>
+<tr><td>Customer E</td><td>₦401,200</td></tr>
+</table>
+
+<div class="insight-card">
+<strong>Key Finding</strong>
+<p>
+The two highest-contributing customers
+generated approximately 33% of total revenue
+combined. This highlights the importance of
+customer retention and repeat-purchase strategies.
+</p>
+</div>
+
+<h3 class="subheading">Order Performance</h3>
+
+<p>
+Average order value was approximately
+₦176,693, calculated by dividing total revenue
+by the 27 unique orders.
+</p>
+
+<p>
+Two notable orders were identified:
+</p>
+
+<ul>
+<li>Order 1016: ₦433,000.</li>
+<li>Order 1008: ₦422,000.</li>
+</ul>
+
+</section>
+
+<section>
+<p class="eyebrow">10 / MAJOR BUSINESS OBSERVATIONS</p>
+
+<h2>What the Analysis Revealed</h2>
+
+<div class="insight-card">
+<strong>01. Revenue Concentration</strong>
+<p>
+Groceries and Electronics account for
+approximately 60.9% of total revenue.
+</p>
+</div>
+
+<div class="insight-card">
+<strong>02. Product Dominance</strong>
+<p>
+Rice (50kg) contributes approximately 31.2%
+of overall revenue.
+</p>
+</div>
+
+<div class="insight-card">
+<strong>03. Monthly Fluctuations</strong>
+<p>
+Revenue varies significantly across months,
+with March recording the highest performance.
+</p>
+</div>
+
+<div class="insight-card">
+<strong>04. Geographical Differences</strong>
+<p>
+Lagos leads geographical revenue performance,
+while Oyo records the lowest contribution.
+</p>
+</div>
+
+<div class="insight-card">
+<strong>05. Customer Contribution</strong>
+<p>
+The two highest-contributing customers
+represent approximately one-third of revenue.
+</p>
+</div>
+
+<div class="insight-card">
+<strong>06. Category Performance Gap</strong>
+<p>
+Beauty generates only approximately 3.2%
+of total revenue.
+</p>
+</div>
+
+<div class="insight-card">
+<strong>07. Missing Monthly Activity</strong>
+<p>
+August has no recorded transactions,
+requiring further data validation.
+</p>
+</div>
+
+</section>
+
+<section>
+<p class="eyebrow">11 / BUSINESS RECOMMENDATIONS</p>
+
+<h2>Strategic Recommendations</h2>
+
+<ol>
+<li>
+<strong>Strengthen high-performing categories.</strong>
+Maintain appropriate inventory and explore
+growth opportunities in Groceries and Electronics.
+</li>
+
+<li>
+<strong>Investigate underperforming categories.</strong>
+Review product assortment, customer demand
+and pricing in the Beauty category.
+</li>
+
+<li>
+<strong>Protect top-selling products.</strong>
+Monitor inventory availability and avoid
+stock shortages for leading revenue generators.
+</li>
+
+<li>
+<strong>Explore geographical opportunities.</strong>
+Investigate customer demand and market
+opportunities in Oyo and Kano.
+</li>
+
+<li>
+<strong>Improve customer retention.</strong>
+Develop loyalty initiatives and repeat-purchase
+strategies while avoiding overdependence
+on a small number of customers.
+</li>
+
+<li>
+<strong>Monitor monthly performance.</strong>
+Investigate revenue fluctuations and identify
+factors responsible for strong and weak months.
+</li>
+
+<li>
+<strong>Introduce profitability monitoring.</strong>
+Track product costs, gross profit and margins
+alongside revenue to understand actual
+business profitability.
+</li>
+
+<li>
+<strong>Improve data quality and reporting.</strong>
+Investigate the absence of August transactions
+and strengthen data recording procedures.
+</li>
+</ol>
+
+</section>
+
+<section>
+<p class="eyebrow">12 / PROJECT CONCLUSION</p>
+
+<h2>Turning Data Into Business Decisions</h2>
+
+<p>
+The NaijaMart Sales Intelligence project
+demonstrates how retail sales data can be
+transformed into meaningful business insights.
+
+Through data preparation, SQL querying,
+exploratory analysis and Power BI dashboard
+development, the project identified revenue
+patterns, leading products, category performance,
+customer contributions and geographical
+differences.
+
+The findings provide a foundation for more
+informed inventory planning, customer retention,
+market development and performance monitoring.
+</p>
+
+<p>
+This project reflects my developing capabilities
+in Data Analytics, Business Intelligence,
+data visualization and business-focused
+analytical storytelling.
+</p>
+
+<a href="index.html" class="btn">Back to Main Portfolio</a>
+
 </section>
 
 <footer>
-    <p>© 2026 Ubong John Williams. All Rights Reserved.</p>
-    <p>DATA ANALYTICS | BUSINESS INTELLIGENCE</p>
+<p>© 2026 Ubong John Williams. All Rights Reserved.</p>
+<p>DATA ANALYTICS | BUSINESS INTELLIGENCE | UX & PRICING ANALYTICS</p>
 </footer>
 
 </body>
