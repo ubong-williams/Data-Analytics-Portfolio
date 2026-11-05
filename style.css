@@ -133,7 +133,7 @@ h2 {
     margin-bottom: 25px;
 }
 
-#about > p:last-child,
+#about > p:not(.eyebrow),
 #contact > p:not(.eyebrow) {
     color: var(--grey);
     max-width: 750px;
