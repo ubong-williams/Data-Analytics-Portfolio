@@ -62,8 +62,8 @@ nav a:hover {
 /* HERO SECTION */
 
 .hero {
-    min-height: 85vh;
-    padding: 130px 10%;
+    min-height: 80vh;
+    padding: 100px 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
