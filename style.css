@@ -84,7 +84,7 @@ nav a:hover {
     font-size: clamp(40px, 6vw, 75px);
     line-height: 1.15;
     max-width: 850px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .hero h1 span {
